@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+</head>
+<body>
+    <div class="container">
+        <h1>Personal Finance Tracker</h1>
+        <div class="form">
+            <input type="text" id="description" placeholder="Description">
+            <input type="number" id="amount" placeholder="Amount">
+            <p id="note"><b>Please input the expense amount with -ve sign (e.g., -1,000).</b></p>
+            <button id="add">Add Transaction</button>
+        </div>
+        <div class="transactions">
+            <ul id="transaction-list">
+                <!-- Transactions will be added here dynamically -->
+            </ul>
+        </div>
+        <div class="totals">
+          <p>Income  : &#8377; <span id="income">0.00</span></p>
+          <p>Expense : &#8377; <span id="expense">0.00</span></p>
+          <p>Balance : &#8377; <span id="balance">0.00</span></p>
+       </div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

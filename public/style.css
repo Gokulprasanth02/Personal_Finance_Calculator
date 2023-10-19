@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(calculator\ img.jpeg);
+}
+
+.container {
+    max-width: 420px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    padding-right: 40px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-image:url(BC\ image.avif) ;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form input, .form button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #0074d9;
+    color: #fff;
+    cursor: pointer;
+}
+
+.transactions ul {
+    list-style: none;
+    padding: 0;
+}
+
+.totals {
+    margin-top: 20px;
+}
+
+.totals p {
+    font-size: 18px;
+    margin: 8px 0;
+    text-align: left;
+    padding-left: 130px;
+}
+
+.totals span {
+    font-weight: bold;
+}
+
+#note {
+    color: #ff004f;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin: auto;
+}
+#add {
+    margin-top: 30px;
+}
